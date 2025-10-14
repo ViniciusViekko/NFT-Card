@@ -15,16 +15,29 @@
     padding: 24px;
     width: 100%;
     max-width: 400px;
-    height: 80vh;
+    height: 90vh;
 
     border-radius: 18px;
     box-shadow: 0px 35px 5px 20px rgba(0,0,0,0.05);
+
     
 }
 
 .card .main-img {
     width: 100%;
     border-radius: 10px;
+    height: 35vh;
+    display: block;
+    margin: 0 auto;
+ 
+}
+
+
+
+
+.main-footer img {
+    width: 60px;
+    margin-right: 16px;
 }
 
 /* TEXTS ===================== */
@@ -75,6 +88,51 @@
 }
 
 
+/* LINE =============== */
 
+.line {
+    padding: 1px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--line);
+    margin-bottom: 10px;
+}
+
+footer.main-footer {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+footer.footer-main {
+    display: flex;
+    align-items: center;
+}
+
+footer.main-footer img {
+    border: 3px solid var(--white);
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+footer.main-footer span {
+    color:var(--softBlue);
+    font-weight: 300;
+}
+
+footer.main-footer span.name {
+    color: var(--white);
+    transition: 0.15s ease-in;
+    cursor: pointer;
+}
+
+footer.main-footer span.name:hover {
+    color: var(--cyan);
+}
 
 
